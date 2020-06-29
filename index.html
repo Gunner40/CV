@@ -3,117 +3,57 @@
 
 <head>
   <meta charset="utf-8">
-  <!--utf-8 includes all of those international symbols including all the characters in the Unicode character set including emoji's.-->
-  <title>&#128293; Paul's personal site</title>
+  <title>Paul Ryan</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="favicon2.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <td><img src="images/Paul-Ryan.jpg" alt="Paul Ryan profile pic"></td>
-    <!--can either
-      copy image source from internet or copy the actual image into a folder in
-      the site folder. Latter way is best incase the link disappears.
-      Alt attribute - This text is displayed if there is problem
-      displaying the image, this alt is a description of the pic and helps with
-      SEO-->
-    <td>
-      <h1>Paul Ryan</h1>
-      <p><em>Founder and Frontman of <strong><a href="https://blueromantics.ie/">Blue Romantics Wedding Band</a></strong>.</em></p>
-      <!-- paragraph, em is emphasized (italic), strong - strong or bold), a is anchor tag and its a way of adding a link to the
-      text, this is a href link to the blue romantics website. This is th HT part of HTML-->
-      <p>I am training to become a Web Developer.</p>
-    </td>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <!-- unordered list-->
-    <li>Leaving certificate, <a href="https://www.cpckilcullen.com/">Cross and Passion Kilcullen</a> (1998)</li>
-    <li>Certificate in Electronic Engineering, <a href="https://www.it-tallaght.ie/">Tallaght IT</a> (2000)</li>
-    <li>Diploma in Electronic Engineering, <a href="https://www.it-tallaght.ie/">Tallaght IT</a> (2002)</li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <th>Date</th>
-      <th>Work</th>
-    </thead>
-    <tbody>
-      <tr>
-        <!-- table row-->
-        <td>2001</td> <!-- table cell-->
-        <td>Trainee CAD technician in EEL</td>
-      </tr>
-      <tr>
-        <td>2005-2007</td>
-        <td>Manufacturing Technician in Intel</td>
-      </tr>
-      <tr>
-        <td>2007-2020</td>
-        <td>Professional Musician</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="top-container">
+    <img class="cloud-top" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Paul</h1>
+    <h2 class="mainH2">a web developer</h2>
+    <img class="cloud-bottom" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profilePic"src="images\PaulProfilePic.jpg" alt="Paul Ryan profile pic">
+      <h2>Hello</h2>
+      <p class="profileDescription">I'm Paul, a professional musician from Ireland. I am the Lead Singer, Lead Guitar Player and Frontman of Blue Romantics. I love Snickers Bars and the odd Bottle of Beer ❤ </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="skill1-img" src="images\Paul-Band-pic.jpg" alt="Paul Ryan playing guitar image">
+        <h3>Guitar Player and Singer</h3>
+        <p>I've been playing guitar and singing since the age of 14. I now earn a full time living from performing Live Music to audiences all over Ireland.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill2-img" src="images\WebDeveloperPic.jpg" alt="Web developer skill pic">
+        <h3>Web Developer</h3>
+        <p>I am a Web Developer in training. So far I have learned HTML and CSS to intermediate level. I hope to become very proficient at building websites by the end of my course. Only another 48hrs to go. This should take me appox 2 months!!!</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="contactH3">I would love to hear from you!</h3>
+      <p class="contactMessage">Do you play in a band? Lets talk about all things music! We can code while we talk!</p>
+      <a class="btn" href="mailto:pryan1000@hotmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
-  <hr>
 
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <thead>
-      <th>Skill</th>
-      <th>Rating</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Guitar player</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Singer</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Wedding Band Frontman</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Web developer</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>HTML</td>
-        <td>⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>⭐</td>
-      </tr>
-      <tr>
-        <td>Microsoft Excel</td>
-        <td>⭐⭐</td>
-      </tr>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.facebook.com">Facebook</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.linkedin.com">linkedin</a>
+    <p class="CopyrightText">© 2020 Paul Ryan Web Development.</p>
+  </div>
 
-    </tbody>
-  </table>
-
-  <hr>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <h3><a href="Hobbies.html">Hobbies</a></h3>
-      </td>
-      <!-- linking off to new page that i created in the site folder called Hobbies. By using these hyperlinks we
-          start to build up a web-site rather than just a web-page-->
-      <td>
-        <h3><a href="Contact.html">Contact Me</a></h3>
-      </td>
-    </tr>
-  </table>
 
 </body>
 
